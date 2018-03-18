@@ -1,0 +1,115 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+		<title>Welcome to The Incredibles Signup</title>
+		<script src="signup.js"></script>
+		<script type="text/javascript">
+			function chan(i)
+			{
+				i++;
+				if(i==7)
+					i=1;
+				f=document.frm;
+				document.getElementById("navil").innerHTML="<img src='img/"+i+".jpg'/>";
+				setTimeout("chan("+i+")",2000);	
+			}
+		</script>
+<style>
+.ou{ float:right;height:498px;width:1125px;}
+.page{width:100%; height:100%;margin:0px 0px 0px 0px;color:#ffffff;}
+.banner1{height:140px;color:#69c9d4;}
+.banner2{height:50px;}
+.menu {width:450px;}
+hr{border:4px solid #69C9D4;}		
+.menu li {padding:0 15px 23px 15px; display:inline; list-style:none;}
+.menu li a:hover { color: #55A4AE;}
+.menu li.current_page_item a {background-color:#4EB1BA; padding:6px 11px; letter-spacing:-1px; 
+font: bold 0.89em'CartoGothicStdBook',  Arial, Helvetica, sans-serif; text-transform: uppercase; 
+color: #fff; -moz-border-radius: 7px;  -webkit-border-radius: 7px;   border-radius: 7px;}
+.menu li a {color: #eee;  font: bold 0.89em 'SansationRegular', georgia; text-transform: uppercase; text-decoration: none; }
+#su{ color: #000000;}
+.Connect { float:left; color: #000000; font:  1.4em   Arial, Helvetica, sans-serif; margin-top:0.8em; margin-bottom:1.3em; text-shadow: 1px 1px 0  #092f37;} 
+#SocialLinks {width:520px; float:right; margin-top:1.3em; margin-right:0;}		
+#SocialLinks li {padding:0 0px 23px 29px; display:inline; list-style:none;  }		
+#SocialLinks a:hover { color: #fff; text-shadow: 1px 1px 0  #092f37;  }
+#SocialLinks  li a {color: #092f37; text-shadow: 1px 1px 0  #7DDAEE;  font: 1.2em 'SansationBold', "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform: uppercase; text-decoration: none; letter-spacing:-1px;}
+.copyright{ clear: both; text-align: center; color: #000000; font: 13px  Verdana, Arial, Helvetica, sans-serif; margin-bottom: 15px ;} 
+.container{height:500px;margin:0px 0px 0px 0px; color:#000000}
+.navil{float:left;height:500px;width:200px;}
+.navir{float:right;height:497px;width:300px;}
+.footer{ background:#69c9d4;height:70px;margin:0px 0px 0px 0px;}
+.wid{width:100px}	
+a{text-decoration:none;color:#0a82c5}
+body{background: #f0f8ff;}
+#Logo { width:270px;}
+</style>
+</head>
+<body>
+<div class="page" >
+<div class="bg">
+<div class="banner1" align="center"><h1 class="page"><img src="img/banner.jpg" /></h1>
+<hr/>
+</div>
+
+<div class="container" id="cent">
+		<form style="margin:50px 10px 0px 10px;" name="frm">
+			<fieldset>
+				<legend align="center"><h2>Registration Page</h2></legend>
+<center>
+<table cellspacing="10">
+<tr>
+<td>Name:</td>
+<td><input type="text"  id="x1" name="t1" onfocus="onfo()" placeholder="only char" maxlength="50"/></td>
+<td class="col" id="d1">                  </td>
+</tr>          
+<tr></tr>
+<tr></tr>
+
+<tr>
+<td>User ID:</td>
+<td><input type="text" id="x2" onfocus="onfo1()" name="t2" onblur="usercheck()" placeholder="min 6" maxlength="50"/></td>
+<td class="col" id="d2">                  </td>
+<tr></tr>
+<tr></tr>
+</tr>               
+  
+<tr>
+<td>Password:</td>               
+<td><input type="password" id="x3" onfocus="onfo2()" name= "t3" placeholder="min 8" maxlength="50"/></td>
+<td class="col" id="d3">                  </td>
+</tr>
+<tr></tr>
+<tr></tr>              
+
+<tr>
+<td><input type="button" value="Sign up" onclick="check()"/></td>
+<td><input type="button"  value="Clear" onclick="cle()"/></td>
+</tr>
+</table>
+
+</center>
+				
+			</fieldset>
+		</form>	
+</div>
+<div class="footer" align="center"><div class="ContentArea">
+<p class="Connect">Lets Connect</p>
+<ul id="SocialLinks">
+ 
+        <li><a href="mailto:myfone@gmail.com">Email</a></li>          
+        <li><a href="http://twitter.com/myfone">Twitter </a></li>
+		<li><a href="http://facebook.com/my.fone">Facebook </a> </li>
+        <li><a href="http://pinterest.com/myfone/"> Pinterest </a> </li>
+	    </ul>
+		
+<div class="copyright">Copyright ©2013 Personal Website of myfone. All rights reserved.	Powered by the Wordpress. </div>
+</div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">
+		chan(0);
+	</script>
+</body>
+</html>

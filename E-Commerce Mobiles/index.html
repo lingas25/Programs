@@ -1,0 +1,129 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <link href="slide/js-image-slider.css" rel="stylesheet" type="text/css" />
+    <script src="slide/mcVideoPlugin.js" type="text/javascript"></script>
+    <script src="slide/js-image-slider.js" type="text/javascript"></script>
+    <link href="generic.css" rel="stylesheet" type="text/css" />
+<script src="login.js"></script>
+<script src="link.js"></script>
+<script src="buy.js"></script>
+<script src="mob.js"></script>
+<script src="search.js"></script>
+<script src="refresh.js"></script>
+	<title>Welcome to The Incredibles Mobile Shopping</title>
+
+		<script type="text/javascript">
+			function chan(i)
+			{
+				i++;
+				if(i==7)
+					i=1;
+				f=document.frm;
+				document.getElementById("navil").innerHTML="<img src='img/"+i+".jpg'/>";
+				setTimeout("chan("+i+")",2000);	
+			}
+</script>
+<style>
+.ou{ float:right;height:498px;width:1125px; overflow:auto;}
+.page{width:100%; height:100%;margin:0px 0px 0px 0px;color:#ffffff;}
+.banner1{height:140px;color:#69c9d4;}
+.banner2{height:50px;}
+.menu {width:450px;}
+hr{border:4px solid #69C9D4;}		
+.menu li {padding:0 15px 23px 15px; display:inline; list-style:none;}
+.menu li a:hover { color: #55A4AE;}
+.menu li.current_page_item a {background-color:#4EB1BA; padding:6px 11px; letter-spacing:-1px; 
+font: bold 0.89em'CartoGothicStdBook',  Arial, Helvetica, sans-serif; text-transform: uppercase; 
+color: #fff; -moz-border-radius: 7px;  -webkit-border-radius: 7px;   border-radius: 7px;}
+.menu li a {color: #eee;  font: bold 0.89em 'SansationRegular', georgia; text-transform: uppercase; text-decoration: none; }
+#su{ color: #000000;}
+.Connect { float:left; color: #000000; font:  1.4em   Arial, Helvetica, sans-serif; margin-top:0.8em; margin-bottom:1.3em; text-shadow: 1px 1px 0  #092f37;} 
+#SocialLinks {width:520px; float:right; margin-top:1.3em; margin-right:0;}		
+#SocialLinks li {padding:0 0px 23px 29px; display:inline; list-style:none;  }		
+#SocialLinks a:hover { color: #fff; text-shadow: 1px 1px 0  #092f37;  }
+#SocialLinks  li a {color: #092f37; text-shadow: 1px 1px 0  #7DDAEE;  font: 1.2em 'SansationBold', "Trebuchet MS", Arial, Helvetica, sans-serif; text-transform: uppercase; text-decoration: none; letter-spacing:-1px;}
+.copyright{ clear: both; text-align: center; color: #000000; font: 13px  Verdana, Arial, Helvetica, sans-serif; margin-bottom: 15px ;} 
+.container{height:500px;margin:0px 0px 0px 0px; color:#000000}
+.navil{float:left;height:500px;width:200px;}
+.navir{float:right;height:497px;width:300px;}
+.footer{ background:#69c9d4;height:70px;margin:0px 0px 0px 0px;}
+.wid{width:100px}	
+a{text-decoration:none;color:#0a82c5}
+body{background: #f0f8ff;}
+#Logo { width:270px;}
+</style>
+</head>
+<body>
+<div class="page">
+<div class="bg">
+<div class="banner1" align="center"><img src="img/banner.jpg" />
+</div>
+<hr/>
+<center>
+<div class="menu">
+<ul>
+<li class="current_page_item"><td><a href="javascript:link('home')">Home</a></td></li>
+<li  class="current_page_item"><td><a href="javascript:link('contact')">Contact Us</a></td></li>
+<li  class="current_page_item"><td><a href="javascript:link('product')">Products</a></td></li>
+<li class="current_page_item" id="lgot" style="margin-right:-1215px; margin-top:-25px"><td><a href="logout.php">Logout</a></td></li>
+</ul>
+</div>
+</center>
+<hr/>
+<div class="container">
+<div class="navil" id="navil"></div>
+<div class="ou" id="cr">
+ <div id="sliderFrame">
+        <div id="slider">
+                <img src="images/thumb1.jpg" alt="Welcome to Mobile Shopping" />
+                <b data-src="images/thumb2.jpg">Vimeo</b>
+                <b data-src="images/thumb3.jpg">Image Slider</b>
+                <b class="lazyImage" data-src="images/thumb4.jpg">Slide 4</b>
+                <b data-src="images/thumb5.jpg">Slide 5</b>
+                <b class="lazyImage" data-src="images/thumb6.jpg">Slide 6</b>
+                <b data-src="images/thumb7.jpg">Slide 7</b>
+        </div>
+    </div>
+	<div class="navir">
+		<form style="margin:120px 10px 0px 10px;">
+<fieldset>
+<legend align="center" style="color:#000000">Login</legend>
+<table style="color:#000000">
+<tr><td><label>Login Id</label></td><td><input type="text" name="u" placeholder="loginid"/></td></tr>
+<tr><td></td><td><div id="vu"></div></td></tr>
+<tr><td><label>Password</label></td><td><input type="password" name="pw" placeholder="password"/></td><td></tr>
+<tr><td></td><td><div id="vpw"></div></td></tr>
+<tr><td></td><td><input type="button" onclick="validate(this.form)" value="Submit"/><input type="reset"/><br/></td></tr>
+
+</table><center>
+<a href="signup.html">Sign Up</a></center>
+</fieldset>
+</form>
+	</div>
+</div>
+
+	
+</div>
+<div class="footer" align="center"><div class="ContentArea">
+<p class="Connect">Lets Connect</p>
+<ul id="SocialLinks">
+ 
+        <li><a href="mailto:myfone@gmail.com">Email</a></li>          
+        <li><a href="http://twitter.com/myfone">Twitter </a></li>
+		<li><a href="http://facebook.com/my.fone">Facebook </a> </li>
+        <li><a href="http://pinterest.com/myfone/"> Pinterest </a> </li>
+	    </ul>
+		
+<div class="copyright">Copyright ©2013 Personal Website of myfone. All rights reserved.	Powered by the Wordpress. </div>
+</div>
+</div>
+</div>
+</div>
+	<script type="text/javascript">
+		chan(0);
+		document.getElementById("lgot").style.display="none";
+		refre();
+	</script>
+</body>
+</html>

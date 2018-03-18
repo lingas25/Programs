@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+	 <form name="frm" method="post" action="mob.php" onsubmit="return check()" enctype="multipart/form-data" target="leiframe">
+		<h1 align="center">Mobile Details</h1><br/>
+		<table cellspacing="10" align="left">
+			<tr>
+				<td>Company Name</td><td><input type="text" name="cname" onfocus="onfo()"/></td><td id="t1"></td>
+			</tr><tr>
+				<td>Mobile  Id</td><td><input type="text" name="mid" onfocus="onfo1()" /></td><td id="t2"></td>
+			</tr><tr>
+				<td>Model Name</td><td><input type="text" name="moname" onfocus="onfo2()" /></td><td id="t3"></td>
+			</tr><tr>
+				<td>Price</td><td><input type="text" name="price" onfocus="onfo3()" /></td><td id="t4"></td>
+			</tr>
+			<tr>
+				<td>Image Path</td>
+				<td><input type="file" name="image" onfocus="onfo4()"/></td><td id="t5"></td>
+			</tr><tr>
+				<td ><input type="submit" value="Add to Database" /></td>
+				<td ><input type="button" value="Clear" onclick="cle()" /></td>
+			</tr>
+		</table>
+			<iframe name="leiframe" width="250" height="300" align="right"></iframe>	
+	</form>
+</body>
+</html>

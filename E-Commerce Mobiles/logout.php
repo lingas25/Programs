@@ -1,0 +1,9 @@
+<?php
+	session_start();
+	$_SESSION['uname']="";
+	$_SESSION['utype']="";
+	unset($_SESSION['uname']);
+	unset($_SESSION['utype']);
+	session_destroy();
+	header("Location:index.html");
+?>
