@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Home::Make Reservation</title>
+    <link href="StyleSheet.css" rel="Stylesheet" type="text/css" />
+    <link type="text/css" href="css/ui-lightness/jquery-ui-1.10.3.custom.css" rel="stylesheet" />
+    <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.10.3.custom.js"></script>
+</head>
+
+
+<body>
+
+<div class="container">
+<div class="banner">
+<img src="Images/ban.jpg" height="140px" width="155px" align="left" alt="ban"/>
+<img src="Images/cars1.jpg" width="940px" height="140px"  align="left" alt="cars"/>
+<img src="Images/banright.jpg" width="155px" height="140px" alt="banright"/>
+</div>
+<div class="menuout">
+<div class="menu">
+<br />
+<ul>
+<li class="current_page_item"><td><a href="Default.aspx">Home</a></td></li>
+<li class="current_page_item"><td><a href="Careers.aspx">Careers</a></td></li>
+<li class="current_page_item"><td><a href="AboutUs.aspx">About India Drive</a></td></li>
+<li class="current_page_item"><td><a href="ContactUs.aspx">Customer care</a></td></li>
+<li  class="current_page_item"><td><a href="CancelBooking.aspx">Cancel Booking</a></td></li>
+<li  class="current_page_item"><td><a href="BillSearch.aspx">Bill Search</a></td></li>
+<li  class="current_page_item"><td><a href="HandOverCheckBooking.aspx">Handover</a></td></li>
+<li  class="current_page_item"><td><a href="BillShow.aspx">Return</a></td></li>
+<li  class="current_page_item"><td><asp:HyperLink runat="server" Text="Login" ID="Login" NavigateUrl="StaffLogin.aspx" /></td></li>
+</ul>
+</div>
+</div>
+
+<div class="con">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+</div>
+       
+<div class="footer"><b>
+<a href="AboutUs.aspx">About Us</a>
+<a href="AffiliatedHotels.aspx">Affiliated Hotels</a>
+<a href="">Weather</a>
+<a href="">Contact Us</a>
+<a href="">Site Map</a>
+<a href="">Career</a><br/>
+Copyrights and disclaimer statement</b>
+</div>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,6 @@
+C:\Documents and Settings\vita1\Desktop\Fleet\FleetSolution\FleetLibrary\bin\Release\FleetLibrary.dll.config
+C:\Documents and Settings\vita1\Desktop\Fleet\FleetSolution\FleetLibrary\bin\Release\FleetLibrary.dll
+C:\Documents and Settings\vita1\Desktop\Fleet\FleetSolution\FleetLibrary\bin\Release\FleetLibrary.pdb
+C:\Documents and Settings\vita1\Desktop\Fleet\FleetSolution\FleetLibrary\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\vita1\Desktop\Fleet\FleetSolution\FleetLibrary\obj\Release\FleetLibrary.dll
+C:\Documents and Settings\vita1\Desktop\Fleet\FleetSolution\FleetLibrary\obj\Release\FleetLibrary.pdb

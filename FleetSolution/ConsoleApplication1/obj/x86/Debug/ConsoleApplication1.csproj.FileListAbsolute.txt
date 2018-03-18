@@ -1,0 +1,7 @@
+C:\Documents and Settings\vita1\Desktop\Fleet\FleetSolution\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Documents and Settings\vita1\Desktop\Fleet\FleetSolution\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Documents and Settings\vita1\Desktop\Fleet\FleetSolution\ConsoleApplication1\bin\Debug\FleetLibrary.dll
+C:\Documents and Settings\vita1\Desktop\Fleet\FleetSolution\ConsoleApplication1\bin\Debug\FleetLibrary.pdb
+C:\Documents and Settings\vita1\Desktop\Fleet\FleetSolution\ConsoleApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\vita1\Desktop\Fleet\FleetSolution\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.exe
+C:\Documents and Settings\vita1\Desktop\Fleet\FleetSolution\ConsoleApplication1\obj\x86\Debug\ConsoleApplication1.pdb
